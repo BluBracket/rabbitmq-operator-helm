@@ -1,0 +1,12 @@
+apiVersion: v2
+name: rabbitmq-cluster-operator
+description: Helm Chart to install RabbitMQ Cluster Operator
+type: application
+version: 0.0.1
+appVersion: 1.8.0
+kubeVersion: ">=1.18.0-0"
+icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+home: https://www.rabbitmq.com/kubernetes/operator/operator-overview.html
+sources:
+  - https://github.com/rabbitmq/cluster-operator
+  - https://github.com/srinivasakartheek/rabbitmq-operator-helm
